@@ -8,7 +8,7 @@ class Program
     {
         Console.Write("Enter the number of items to ship: ");
         int totalitems = Convert.ToInt32(Console.ReadLine());
-
+git
 
         int itemsPerBox = 5;
         decimal costPerBox = 4.75m;
@@ -25,6 +25,7 @@ class Program
         Console.WriteLine($"You need {Fullboxes} full box(es) and {Leftovers} leftover item(s).");
 
         Console.WriteLine($"Total shipping cost: ${totalCost}");
+        Console.WriteLine("Thank you for using the Shipping Calculator!");
 
     }
 
